@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .form {
+        width: 250px;
+        height: 200px;
+        border: 2px;
+        border-style: solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      form {
+        margin: 5px;
+        width: 100%;
+      }
+
+      .input {
+        display: flex;
+        flex-direction: column;
+      }
+      .confirm {
+        display: flex;
+        justify-content: space-between;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="form">
+      <form action="">
+        <div class="input">
+          <label for="username">Username</label>
+          <input type="text" name="username" id="username" />
+        </div>
+        <div class="input">
+          <label for="username">Password</label>
+          <input type="text" name="username" id="username" />
+        </div>
+        <div class="confirm">
+          <div>
+            <input type="checkbox" name="remember" id="remember" />
+            <label for="remember">Remember ne</label>
+          </div>
+          <button>Log in</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
